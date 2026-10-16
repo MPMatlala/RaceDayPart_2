@@ -22,4 +22,4 @@ namespace RaceDay.Api.Models
         public Category Category { get; set; }
         public Result Result { get; set; }
     }//end of class
-}
+}//end of namespace
