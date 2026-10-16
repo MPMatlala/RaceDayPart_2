@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace RaceDay.Api.Models
-{
+{//start of namespace
     public class Participant
     {
         public int ParticipantId { get; set; }
