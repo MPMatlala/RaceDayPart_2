@@ -18,7 +18,7 @@ builder.Services.AddHttpClient(); // used for the weather endpoint
 // authentication - the user logs in and gets a token, which keeps their login and role for every request
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
-    {
+   //start of authintication {
         options.MapInboundClaims = false;
         options.TokenValidationParameters = new TokenValidationParameters
         {
