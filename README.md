@@ -18,3 +18,6 @@
 
 ## Tests
     dotnet test RaceDay.sln
+    picture for verified 
+<img width="1872" height="578" alt="image" src="https://github.com/user-attachments/assets/f181e4e8-02ad-47d5-9e6e-c066d66b88a6" />
+
