@@ -21,5 +21,5 @@ namespace RaceDay.Api.Models
         public Participant Participant { get; set; }
         public Category Category { get; set; }
         public Result Result { get; set; }
-    }
+    }//end of class
 }
