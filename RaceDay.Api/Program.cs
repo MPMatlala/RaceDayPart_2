@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // database (SQL Server + Entity Framework Core)
 builder.Services.AddDbContext<RaceDayContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+//building
 builder.Services.AddControllers();
 builder.Services.AddHttpClient(); // used for the weather endpoint
 
