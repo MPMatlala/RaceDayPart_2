@@ -1,7 +1,7 @@
 using System.Security.Claims;
 
 namespace RaceDay.Api.Helpers
-{
+{//start of namespace
     public static class ClaimsExtensions
     {
         // gets the id of the logged-in user from the token
