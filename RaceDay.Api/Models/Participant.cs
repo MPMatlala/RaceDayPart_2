@@ -22,4 +22,4 @@ namespace RaceDay.Api.Models
 
         public List<Enrolment> Enrolments { get; set; } = new List<Enrolment>();
     }//start of class
-}
+}//start of namespace
