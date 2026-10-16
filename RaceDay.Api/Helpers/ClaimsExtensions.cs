@@ -10,4 +10,4 @@ namespace RaceDay.Api.Helpers
             return int.Parse(user.FindFirst("id").Value);
         }
     }
-}
+}//end of namespace
