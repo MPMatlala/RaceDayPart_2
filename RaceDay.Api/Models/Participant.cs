@@ -21,5 +21,5 @@ namespace RaceDay.Api.Models
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         public List<Enrolment> Enrolments { get; set; } = new List<Enrolment>();
-    }
+    }//start of class
 }
